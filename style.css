@@ -1,0 +1,96 @@
+body{
+  position: relative;
+  padding-left: 1rem;
+}
+div , nav{
+  font-family: "Montserrat";
+}
+td{
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+nav ul {
+  list-style-type: none;
+}
+textarea:focus {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+textarea{
+  border: none;
+}
+.dot{
+     color: #0033CC;
+     font-weight: bold;
+     border-bottom: 1px dotted black;
+}
+.p{
+  font-size: 0.7rem;
+  padding: 0.1rem;
+  width:4.5rem;
+  border-radius: 4px;
+  background-color: gray;
+  color: white;
+}
+.rules{
+  width:38rem;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color:#a6c9ff;
+  color : #0066FF;
+}
+.schedule{
+  margin-bottom: 2rem;
+  padding:2rem 2rem 0;
+  border-bottom:1px solid #0066FF;
+}
+.date{
+  width: 10rem;
+border:1px solid #0066FF;
+border-bottom:1px solid white;
+}
+.date , .config{
+
+  top: 2px;
+  padding:0.3rem;
+
+}
+.nest{
+  padding-top: 2rem;
+}
+.Drop{
+
+  left:-0.7rem;
+}
+.add{
+  z-index: -1;
+
+  left: -1.5rem;
+}
+.second{
+  padding-bottom: 7rem;
+}
+.Wo , .Wo2, .dots{
+  position: absolute;
+}
+.Wo{right: 15rem;}
+.Wo2{right: 5rem;}
+.dots{top: 1rem;right: 1rem;padding-left: 1rem;}
+.dots a{text-decoration: none;color: black;}
+
+/* cursor */
+#cursor{
+  height: 30px;
+  width: 30px;
+  background-color:#e7c82f;
+  position : absolute;
+  border-radius: 50%;
+  display: none;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+div:hover~#cursor{
+  transform: scale(0.5);
+}
